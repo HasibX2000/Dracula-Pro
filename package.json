@@ -1,0 +1,26 @@
+{
+  "name": "dracula-pro",
+  "displayName": "Dracula Pro",
+  "description": "Pro Version Of Dracula Theme",
+  "publisher": "Akon M Hasib",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "author": {
+    "name": "Akon M Hasib"
+  },
+  "icon": "images/icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dracula Pro Edition",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula.json"
+      }
+    ]
+  }
+}
